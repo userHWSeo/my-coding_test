@@ -3,7 +3,7 @@ function solution(x) {
     // x를 string으로 변환
     let strX = x+""
     let sum = 0;
-    // 변환 된 앞 자리와 뒷 자리를 가져와 숫자로 변환한 후 변수 sum에 넣음
+    // 변환 된 자리 수를 가져와 숫자로 변환한 후 변수 sum에 넣음
     for(let i = 0; i < strX.length; i++){
             sum += parseInt(strX[i])
         }
